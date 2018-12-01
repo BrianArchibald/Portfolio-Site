@@ -1899,6 +1899,10 @@ input, select, textarea {
 				font-size: 21px;
 				top: -10px;
 			}
+
+			#header {
+				top: -7px;
+			}
 		}
 		
 		
@@ -2101,18 +2105,14 @@ input, select, textarea {
 			background-attachment: scroll !important;
 		}
 
-		@media screen and (max-width: 1920px) {
-
-			.main.style2 .content {
-				/*width: 52%;*/
-			}
-
-		}
-
 		@media screen and (max-width: 1280px) {
 
 			.main.style2 .content {
 				width: 50%;
+			}
+
+			.anchored {
+				display: none;
 			}
 
 		}
