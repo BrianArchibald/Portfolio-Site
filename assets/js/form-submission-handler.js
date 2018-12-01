@@ -86,10 +86,10 @@
       xhr.onreadystatechange = function() {
           console.log( xhr.status, xhr.statusText )
           console.log(xhr.responseText);
-          document.getElementById("form-footer").style.display = "none";
-          document.getElementById("contact-form-title").style.display = "none";
-          document.getElementById("contact-form-text").style.display = "none";
-          document.getElementById("contact-form-add-text").style.display = "none";
+          // document.getElementById("form-footer").style.display = "none";
+          // document.getElementById("contact-form-title").style.display = "none";
+          // document.getElementById("contact-form-text").style.display = "none";
+          // document.getElementById("contact-form-add-text").style.display = "none";
           document.getElementById("gform").style.display = "none"; // hide form
           var thankYouMessage = document.getElementById("thankyou_message");
           if (thankYouMessage) {
@@ -105,7 +105,7 @@
     }
   }
   function loaded() {
-    console.log("Contact form submission handler loaded successfully.");
+    // console.log("Contact form submission handler loaded successfully.");
     // bind to the submit event of our form
     var form = document.getElementById("gform");
     form.addEventListener("submit", handleFormSubmit, false);

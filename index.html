@@ -1,235 +1,191 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-</head>
-<body>
-	<div id="root">
-		<div id="app">
-			<header class="header fadeIn">
-				<nav class="nav-sticky" id="navSticky">
-					<div class="navLogo">
-						<a href="index.html">
-							<img src="logo2.png">
-						</a>
-					</div>
-					<div class="navList">
-						<ul class="nav-list">	
-							<li>
-								<a class="nav-active" href="#skills-section">
-									<div class="nav-list-items">Skills</div>
-								</a>
-							</li>
-							<li>
-								<a class="nav-active" href="#project-section">
-									<div class="nav-list-items">Portfolio</div>
-								</a>
-							</li>
-							<li>
-								<a class="nav-active" href="#about-section">
-									<div class="nav-list-items">About</div>
-								</a>
-							</li>
-							<li>
-								<a class="nav-active" href="form.html">
-									<div class="nav-list-items">Contact</div>
-								</a>
-							</li>
-						</ul>	
-					</div>
-					<a class="mobile-nav-icon">
-							<i class="fa fa-bars" id="menu-icon" aria-hidden="true"></i> 
-					</a>
-				</nav>    <!--   End of Nav Bar   -->
+	<head>
+		<title>Brian Archibald</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa:700" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-				<nav class="mobile-nav" id="mobile-nav">
-					<div class="mobile-menu" id="close-menu">
-						<ul class="mobile-list" id="mobile-list">
-							<li>
-								<a class="nav-active">
-									<div class="nav-list-mobile" class="close-menu">Close Menu</div>
-								</a>
-							</li>
-							<li>
-								<a class="nav-active" href="#skills-section">
-									<div class="nav-list-mobile" class="close-menu">Skills</div>
-								</a>
-							</li>
-							<li>
-								<a class="nav-active" href="#project-section">
-									<div class="nav-list-mobile" class="close-menu">Portfolio</div>
-								</a>
-							</li>
-							<li>
-								<a class="nav-active" href="#about-section">
-									<div class="nav-list-mobile" class="close-menu">About</div>
-								</a>
-							</li>
-							<li>
-								<a class="nav-active" href="form.html">
-									<div class="nav-list-mobile" class="close-menu">Contact</div>
-								</a>
-							</li>
-						</ul>
-					</div>
+		<!-- Header -->
+			<header id="header">
+				<h1>BA</h1>
+				<nav>
+					<ul>
+						<li class="home-nav-link"><a href="#intro">Home</a></li>
+						<li><a href="#one">Skills</a></li>
+						<li><a href="#work">Portfolio</a></li>
+						<li><a href="#two">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
 				</nav>
+			</header>
 
-				<div class="header-text">
-					<h1 class="header-main-text">Brian Archibald</h1>
-					<p class="header-additional-text">I'm a front end web developer who has a passion for learning new skills and working on tough problems.</p>
-				</div>  <!-- End of Header Text -->
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Brian Archibald</h2>
+					</header>
+					<p>I'm a front end web developer who has a passion for learning new skills and working on tough problems.</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
 
-				<div class="social-container" id="socialContainer">
-					<div class="social">
-						<a href="https://github.com/BrianArchibald">							
-							<i class="fab fa-github"></i>		
-						</a>
-						<a href="https://twitter.com/BrianDevDsm">					
-							<i class="fab fa-twitter"></i>						
-						</a>
-						<a href="form.html">						
-							<i class="fas fa-envelope"></i>							
-						</a>
-						<a href="linkedIn">							
-							<i class="fab fa-linkedin-in"></i>							
-						</a>
+		<!-- Skills -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Skills</h2>
+					</header>
+					<ul class="skills">
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/javascript.svg"></li>
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/html5.svg"></li>
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/css3.svg"></li>
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/firebase.svg"></li>
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/bootstrap.svg"></li>
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/git.svg"></li>
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/github.svg"></li>
+						<li class="specific-skills slideUp"><img class="skills-img" src="images/jquery.svg"></li>
+					</ul>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Portfolio</h2>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/scheduler.png" title="The Anonymous Red" alt="" /></a>
+								<h3>Meeting Scheduler</h3>
+								<div class="portfolio-text">	
+									<a href="https://music-box-f835a.firebaseapp.com/">Demo</a>
+									<a href="https://github.com/BrianArchibald/Scheduler">Code</a>
+								</div>
+							</article>
+							<article class="from-right">
+								<a href="https://music-box-f835a.firebaseapp.com/" class="image fit"><img src="images/thumbs/musicbox.png" title="The Anonymous Red" alt="" /></a>
+								<h3>Music Box</h3>
+								<div class="portfolio-text">	
+									<a href="https://music-box-f835a.firebaseapp.com/">Demo</a>
+									<a href="https://github.com/BrianArchibald/AudioPlayer">Code</a>
+								</div>
+							</article>
+							<article class="from-left">
+								<a href="https://lawn-894dc.firebaseapp.com/" class="image fit"><img src="images/thumbs/lawn.png" title="Airchitecture II" alt="" /></a>
+								<h3>CR Landscaping</h3>
+								<div class="portfolio-text">
+									<a href="https://lawn-894dc.firebaseapp.com/">Demo</a>
+									<a href="https://github.com/BrianArchibald/Lawn">Code</a>
+								</div>
+							</article>
+							<article class="from-right">
+								<a href="https://radiant-sands-39183.herokuapp.com/" class="image fit"><img src="images/thumbs/recipe2.png" title="Air Lounge" alt="" /></a>
+								<h3>My Recipe</h3>
+								<div class="portfolio-text">
+									<a href="https://radiant-sands-39183.herokuapp.com/">Demo</a>
+									<a href="https://github.com/BrianArchibald/Recipe">Code</a>
+								</div>
+							</article>
+							<article class="from-left">
+								<a href="https://broker-site.firebaseapp.com/" class="image fit"><img src="images/thumbs/broker.png" title="Carry on" alt="" /></a>
+								<h3>Brokers</h3>
+								<div class="portfolio-text">
+									<a href="https://broker-site.firebaseapp.com/">Demo</a>
+									<a href="https://github.com/BrianArchibald/Broker">Code</a>
+								</div>
+							</article>
+						</div>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+			<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2" id="about-box">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<div class="about-content">
+						<p class="about-text">After working to ensure the safety of children for several years as a social worker, I decided to apply my love of technology and analytical thinking towards becoming a web developer. I am a lifelong learner and have a history of successful self-guided learning including becoming proficient in Spanish and advancing to the top 3% of rated tournament chess players in the state.</p>
+						<img class="self-photo" src="images/self.jpg" alt="Brian Archibald">
 					</div>
 				</div>
+				<a href="#contact" class="button style2 down anchored">Next</a>
+			</section>
 
-				<div class="learn-more"></div>	
-			</header>  <!--End of header-->
-
-			<div name="skills-container">
-				<section class="skills-section" id="skills-section">
-					<h1 class="section-header" id="section-header-skills">Skills</h1>
-						<p>Front End JavaScript Web Development</p>
-					<ul class="skills">
-						<li class="specific-skills slideUp"><img class="skills-img" src="javascript.svg"></li>
-						<li class="specific-skills slideUp"><img class="skills-img" src="html5.svg"></li>
-						<li class="specific-skills slideUp"><img class="skills-img" src="css3.svg"></li>
-						<li class="specific-skills slideUp"><img class="skills-img" src="jquery.svg"></li>
-						<li class="specific-skills slideUp"><img class="skills-img" src="bootstrap.svg"></li>
-						<li class="specific-skills slideUp"><img class="skills-img" src="git.svg"></li>
-						<li class="specific-skills slideUp"><img class="skills-img" src="github.svg"></li>
-						<li class="specific-skills slideUp"><img class="skills-img" src="firebase.svg"></li>
-					</ul>
-				</section>  <!-- End of Skills Section -->
-			</div>    <!-- End of Skills Element Div -->
-
-			<div name="projects-container">
-				<section class="project-section" id="project-section">
-					<h1 class="section-header portfolio-header">Portfolio</h1>
-					<div class="projects-container">
-						<div class="ind-project projects">
-							<div>
-								<div class="project-img-container">
-									<img class="project-photo" src="musicbox2.png" alt="music player website">
-								</div>
-								<h1>Music Box</h1>
-									<p>Music Box is a streaming music player built with vanilla JavaScript.</p>
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>Feel free to send me a message here or contact me with any of the links below.</p>
+					</header>
+					<div class="box">
+						<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+    						action="https://script.google.com/macros/s/AKfycbw2SvOEBy57DnZEPuP_OHjFDyFnRXJuFKo0MD_Irg/exec">
+							<div class="fields">
+								<div class="field half"><input id="name" type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input id="email" type="email" name="email" placeholder="Email" /></div><span id="email-invalid" style="display:none">Must be a valid email address</span>
+								<div class="field"><textarea id="message" name="message" placeholder="Message" rows="6"></textarea></div>
 							</div>
-							<div class="link-container">
-								<a href="https://music-box-f835a.firebaseapp.com/">Demo</a>
-								<a href="https://github.com/BrianArchibald/AudioPlayer">Code</a>
-							</div>
-						</div>
-						<div class="ind-project projects">
-							<div>
-								<div class="project-img-container">
-									<img class="project-photo" src="lawn.png" alt="lawn website">
-								</div>
-								<h1>Landscaping Business</h1>
-									<p>A website for a landscaping business.  Built with HTML, CSS, and vanilla Javascript.</p>
-							</div>
-							<div class="link-container">
-								<a href="https://lawn-894dc.firebaseapp.com/">Demo</a>
-								<a href="https://github.com/BrianArchibald/Lawn">Code</a>
-							</div>
-						</div>
-						<div class="ind-project projects">
-							<div>
-								<div class="project-img-container">
-									<img class="project-photo" src="broker.png" alt="broker website">
-								</div>
-								<h1>Broker Website</h1>
-									<p>A website to find a broker in your area. Built with Bootstrap and JavaScript.</p>
-							</div>
-							<div class="link-container">
-								<a href="https://broker-site.firebaseapp.com/">Demo</a>
-								<a href="https://github.com/BrianArchibald/Broker">Code</a>
-							</div>
-						</div>
-						<div class="ind-project projects">
-							<div>
-								<div class="project-img-container">
-									<img class="project-photo" src="recipe.png" alt="recipe website">
-								</div>
-								<h1>My Recipe</h1>
-									<p>Easy way to find recipes based on ingredients built with JavaScript and NodeJS and using the food2fork API.</p>
-							</div>
-							<div class="link-container">
-								<a href="https://radiant-sands-39183.herokuapp.com/">Demo</a>
-								<a href="https://github.com/BrianArchibald/Recipe">Code</a>
-							</div>
-						</div>
-						<!--
-						<div class="ind-project projects">
-							<div>
-								<div class="project-img-container">
-									<img class="project-photo" src="https://images.unsplash.com/photo-1496674205429-924b32acd421?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c79e9fb8930b09f0c2885309718bf351&auto=format&fit=crop&w=1050&q=80">
-								</div>
-								<h1>Project Name</h1>
-									<p>This project was something I made and this is what technologies that I used. Here is one more thing about it.</p>
-							</div>
-							<div class="link-container">
-								<a href="project link heroku">Demo</a>
-								<a href="project link github">Code</a>
-							</div>
-						</div>
-						-->
-					</div>   <!-- End of Div Class Project Container -->
-				</section>   <!-- End of Project Section  -->
-			</div>           <!-- End of Projects Element Div -->
-
-			<div name="about-element">
-				<section class="about-section" id="about-section">
-					<h1 class="section-header" id="about-header">About Me</h1>
-					<img src="self.jpg" alt="Brian Archibald">
-					<div class="summary">
-						<p>After working to ensure the safety of children for several years as a social worker, I decided to apply my love of technology and analytical thinking towards becoming a web developer.  I am a lifelong learner and have a history of successful self-guided learning including becoming proficient in Spanish and advancing to the top 3% of rated tournament chess players in the state.</p>				
-					</div>  
-				</section>  
-			</div> 			<!-- End of Div About Element -->
-
-			<footer>
-				<div class="footer">
-					<div class="social-container social-footer">
-						<div class="social">
-							<a href="https://github.com/BrianArchibald">
-								<i class="fab fa-github"></i>
-							</a>
-							<a href="https://twitter.com/BrianDevDsm">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a href="form.html">
-								<i class="fas fa-envelope"></i>
-							</a>
-							<a href="linkedIn">
-								<i class="fab fa-linkedin-in"></i>
-							</a>
-						</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+						<div style="display:none;" id="thankyou_message" >
+					      <h2 class="pure-group">Thanks for contacting me.
+					        I will get back to you soon!</h2>
+					    </div>
 					</div>
-					<p>©Brian Archibald</p>
-				</div>       
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="social-container social-footer">
+					<div class="social">
+						<a href="https://github.com/BrianArchibald">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="https://twitter.com/BrianDevDsm">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="mailto:brianallenarchibald@gmail.com?Subject=Portfolio%20inquiry">
+							<i class="fas fa-envelope"></i>
+						</a>
+						<a href="linkedIn">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</div>
+					<div class="resume">
+						<a href="#">
+							<i class="far fa-file"></i></a><span class="resume-text">Resume</span>
+					</div>
+				</div>	
 			</footer>
-			 
-		</div>    <!-- End of Div Id app -- >
-	</div>   <!-- End of Div id root -->	 	
-</body>
-<script type="text/javascript" src="portfolio.js"></script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
+
+	</body>
 </html>
