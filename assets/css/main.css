@@ -2287,6 +2287,10 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+			ul.menu {
+				font-size: 10px;
+			}
+
 		}
 
 		@media screen and (max-width: 380px) {
