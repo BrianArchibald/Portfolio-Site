@@ -997,6 +997,11 @@ input, select, textarea {
 
 	ul.menu {
 		cursor: default;
+		display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    font-size: 14px;
+	    margin-bottom: 0;
 	}
 
 		ul.menu li {
@@ -1021,6 +1026,12 @@ input, select, textarea {
 		ol.default li {
 			padding-left: 0.25em;
 		}
+
+	.html5-link {
+		color: rgba(185, 186, 187, 0.5);
+		text-decoration: none;
+	}
+
 
 /* Actions */
 
@@ -2231,7 +2242,12 @@ input, select, textarea {
 		.resume-text {
 			padding-left: 10px;
 		}
+
+		.resume {
+			margin-right: 3em;
+		}
 		
+
 	
 		
 		@media screen and (max-width: 1000px) {
@@ -2271,6 +2287,13 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+		}
+
+		@media screen and (max-width: 380px) {
+
+			.resume {
+			margin-right: 0;
+			}
 		}
 
 /* Intro */
