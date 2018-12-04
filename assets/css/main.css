@@ -2288,17 +2288,28 @@ input, select, textarea {
 				}
 
 			ul.menu {
-				font-size: 10px;
+				font-size: 9px;
 			}
 
 		}
 
-		@media screen and (max-width: 380px) {
+		@media screen and (max-width: 446px) {
+
+			.social-container {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+			}
 
 			.resume {
-			margin-right: 0;
+			    margin-right: -5vw;
 			}
+
+			ul.menu {
+    			margin-left: 1.2em;
+			}			
+
 		}
+
 
 /* Intro */
 
