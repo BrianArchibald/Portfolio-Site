@@ -2043,6 +2043,22 @@ input, select, textarea {
 				filter: invert(0.18) sepia(0) saturate(3) hue-rotate(182deg);
 			}
 
+			.skill-text {
+			   font-size: 14px;
+			}
+			                                           
+			.skills-text-margin {
+				 margin-left: .7em;
+			}
+
+			.css-text {
+				margin-left: 1em;
+			}
+
+			.git-text {
+				margin-left: 1.5em;
+			}
+
 			.main.style2.left {
 				-moz-justify-content: -moz-flex-start;
 				-webkit-justify-content: -webkit-flex-start;
@@ -2126,6 +2142,18 @@ input, select, textarea {
 				display: none;
 			}
 
+			.skills-text-margin {
+				margin-left: 0;
+			}
+
+			.git-text {
+				margin-left: 1.2em;
+			}
+
+			.css-text {
+				 margin-left: .7em;
+			}
+
 		}
 
 		@media screen and (max-width: 1000px) {
@@ -2179,6 +2207,10 @@ input, select, textarea {
 			.main.style3 {
 				text-align: center;
 				padding: 3em 10px 3em 10px;
+			}
+
+			.git-text {
+				 margin-left: 0em;
 			}
 
 		}
