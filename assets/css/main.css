@@ -2042,6 +2042,14 @@ input, select, textarea {
 				width: 3em;
 				filter: invert(0.18) sepia(0) saturate(3) hue-rotate(182deg);
 			}
+			.fa-sass {
+				font-size: 3em;
+				color: #2d2c2c;
+				margin: 0 .2em;
+			}
+			#sass-text {
+				margin-left: 2em;
+			}
 
 			.skill-text {
 			   font-size: 14px;
@@ -2213,6 +2221,10 @@ input, select, textarea {
 				 margin-left: 0em;
 			}
 
+			#sass-text {
+				margin-left: 0em;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2232,6 +2244,10 @@ input, select, textarea {
 
 			.skills li:nth-child(4) {
 				padding-top: 1.2em;
+			}
+
+			#sass-text {
+				padding-top: 6px;
 			}
 		}
 
