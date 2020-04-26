@@ -5,7 +5,7 @@ Personal portfolio site to showcase projects and allow a method for others to ea
 
 ## Deployment
 
-Site is live at http://www.brianarchibald.me
+
 
 ## Built With
 
